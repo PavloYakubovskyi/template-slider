@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- External Modern Normalize -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+
+      <!-- Internal Styles -->
+      <link rel="stylesheet" href="styles-slider.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <section class="hero">
+         <div class="hero__slider">
+            <picture class="hero__picture hero__picture--is-shown">
+               <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                     ../mimino-images/optimized/room/room1__bg-hero-01--desktop.jpg    1x,
+                     ../mimino-images/optimized/room/room1__bg-hero-01--desktop@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+               />
+               <source
+                  media="(min-width: 1024px)"
+                  srcset="
+                     ../mimino-images/optimized/room/room1__bg-hero-01--tablet.jpg    1x,
+                     ../mimino-images/optimized/room/room1__bg-hero-01--tablet@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+               />
+               <source
+                  srcset="
+                     ../mimino-images/optimized/room/room1__bg-hero-01--mobile.jpg    1x,
+                     ../mimino-images/optimized/room/room1__bg-hero-01--mobile@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+               />
+               <img
+                  src="../mimino-images/optimized/room/room1__bg-hero-01--desktop.jpg"
+                  alt=""
+               />
+            </picture>
+            <picture class="hero__picture">
+               <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                     ../mimino-images/optimized/room/room1__bg-hero-02--desktop.jpg    1x,
+                     ../mimino-images/optimized/room/room1__bg-hero-02--desktop@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+               />
+               <source
+                  media="(min-width: 1024px)"
+                  srcset="
+                     ../mimino-images/optimized/room/room1__bg-hero-02--tablet.jpg    1x,
+                     ../mimino-images/optimized/room/room1__bg-hero-02--tablet@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+               />
+               <source
+                  srcset="
+                     ../mimino-images/optimized/room/room1__bg-hero-02--mobile.jpg    1x,
+                     ../mimino-images/optimized/room/room1__bg-hero-02--mobile@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+               />
+               <img
+                  src="../mimino-images/optimized/room/room1__bg-hero-02--desktop.jpg"
+                  alt=""
+               />
+            </picture>
+            <picture class="hero__picture">
+               <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                     ../mimino-images/optimized/room/room1__bg-hero-03--desktop.jpg    1x,
+                     ../mimino-images/optimized/room/room1__bg-hero-03--desktop@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+               />
+               <source
+                  media="(min-width: 1024px)"
+                  srcset="
+                     ../mimino-images/optimized/room/room1__bg-hero-03--tablet.jpg    1x,
+                     ../mimino-images/optimized/room/room1__bg-hero-03--tablet@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+               />
+               <source
+                  srcset="
+                     ../mimino-images/optimized/room/room1__bg-hero-03--mobile.jpg    1x,
+                     ../mimino-images/optimized/room/room1__bg-hero-03--mobile@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+               />
+               <img
+                  src="../mimino-images/optimized/room/room1__bg-hero-03--desktop.jpg"
+                  alt=""
+               />
+            </picture>
+
+            <div class="container">
+               <div class="hero__buttons-wrapper">
+                  <button class="hero__btn" data-direction="next">
+                     <svg class="hero__btn-icon" width="37" height="21">
+                        <use
+                           href="../mimino-images/optimized/icons/icons.svg#icon-hero__arrow-left"
+                        ></use>
+                     </svg>
+                  </button>
+                  <button class="hero__btn" data-direction="previous">
+                     <svg class="hero__btn-icon" width="37" height="21">
+                        <use
+                           href="../mimino-images/optimized/icons/icons.svg#icon-hero__arrow-right"
+                        ></use>
+                     </svg>
+                  </button>
+               </div>
+
+               <h2 class="hero__heading">ДВОМІСНИЙ НОМЕР люкс</h2>
+               <div class="hero__description-wrapper">
+                  <p class="hero__description">
+                     Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                     do amet sint. Velit officia consequat duis enim velit
+                     mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+
+                  <button class="btn">Переглянути ціни</button>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="slider-2">
+         <div class="slider-2__window">
+            <div class="slider-2__picts">
+               <picture class="slider-2__picture">
+                  <source
+                     media="(min-width: 1280px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-01--desktop.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-01--desktop@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     media="(min-width: 1024px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-01--tablet.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-01--tablet@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-01--mobile.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-01--mobile@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <img
+                     src="../mimino-images/optimized/restaurant/slider/restaurant__general-slider-01--desktop.jpg"
+                     alt=""
+                  />
+               </picture>
+               <picture class="slider-2__picture">
+                  <source
+                     media="(min-width: 1280px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-02--desktop.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-02--desktop@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     media="(min-width: 1024px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-02--tablet.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-02--tablet@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-02--mobile.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-02--mobile@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <img
+                     src="../mimino-images/optimized/restaurant/slider/restaurant__general-slider-02--desktop.jpg"
+                     alt=""
+                  />
+               </picture>
+               <picture class="slider-2__picture">
+                  <source
+                     media="(min-width: 1280px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-03--desktop.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-03--desktop@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     media="(min-width: 1024px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-03--tablet.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-03--tablet@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-03--mobile.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-03--mobile@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <img
+                     src="../mimino-images/optimized/restaurant/slider/restaurant__general-slider-03--desktop.jpg"
+                     alt=""
+                  />
+               </picture>
+               <picture class="slider-2__picture">
+                  <source
+                     media="(min-width: 1280px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-04--desktop.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-04--desktop@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     media="(min-width: 1024px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-04--tablet.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-04--tablet@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-04--mobile.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-04--mobile@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <img
+                     src="../mimino-images/optimized/restaurant/slider/restaurant__general-slider-04--desktop.jpg"
+                     alt=""
+                  />
+               </picture>
+               <picture class="slider-2__picture">
+                  <source
+                     media="(min-width: 1280px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-05--desktop.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-05--desktop@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     media="(min-width: 1024px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-05--tablet.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-05--tablet@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-05--mobile.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-05--mobile@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <img
+                     src="../mimino-images/optimized/restaurant/slider/restaurant__general-slider-05--desktop.jpg"
+                     alt=""
+                  />
+               </picture>
+               <picture class="slider-2__picture">
+                  <source
+                     media="(min-width: 1280px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-06--desktop.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-06--desktop@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     media="(min-width: 1024px)"
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-06--tablet.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-06--tablet@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <source
+                     srcset="
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-06--mobile.jpg    1x,
+                        ../mimino-images/optimized/restaurant/slider/restaurant__general-slider-06--mobile@2x.jpg 2x
+                     "
+                     type="image/jpeg"
+                  />
+                  <img
+                     src="../mimino-images/optimized/restaurant/slider/restaurant__general-slider-06--desktop.jpg"
+                     alt=""
+                  />
+               </picture>
+            </div>
+         </div>
+         <div class="slider-2__buttons-wrapper"></div>
+      </section>
+
+      <script src="./script-slider.js"></script>
+   </body>
+</html>

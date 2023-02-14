@@ -1,0 +1,151 @@
+button {
+   padding: 0;
+   line-height: 0;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+}
+
+img {
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+
+.hero {
+   width: 100%;
+   margin-bottom: 100px;
+}
+
+.hero__slider {
+   position: relative;
+
+   max-width: 1280px;
+   margin-inline: auto;
+}
+
+.hero__picture {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+
+   display: block;
+
+   visibility: hidden;
+   opacity: 0;
+   transition: visibility 2000ms, opacity 2000ms;
+}
+
+.hero__picture--is-shown {
+   visibility: visible;
+   opacity: 1;
+}
+
+.container {
+   width: 1140px;
+   margin-inline: auto;
+   padding-top: 412px;
+   padding-inline: 15px;
+   padding-bottom: 51px;
+}
+
+.hero__buttons-wrapper {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 72px;
+}
+
+.hero__btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+
+   background-color: rgba(0, 0, 0, 0.65);
+}
+
+.hero__btn-icon {
+   fill: #f3c653;
+}
+
+.hero__heading {
+   margin-bottom: 24px;
+
+   font-family: "Times New Roman", serif;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: calc(41 / 36);
+   letter-spacing: 0.05em;
+   color: #ffffff;
+}
+
+.hero__description-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.hero__description {
+   width: 400px;
+
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: calc(20 / 16);
+   letter-spacing: 0.02em;
+   color: #ffffff;
+}
+
+.btn {
+   min-width: 232px;
+   height: 48px;
+
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: calc(20 / 16);
+   letter-spacing: 0.02em;
+   color: #f3c653;
+
+   border: 2px solid #ffffff;
+   border-radius: 25px;
+   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slider-2__window {
+   position: relative;
+
+   width: 548px;
+   height: 322px;
+   margin-inline: auto;
+   overflow: hidden;
+}
+
+.slider-2__picts {
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   display: flex;
+   gap: 40px;
+
+   transition: transform 1000ms;
+}
+
+.slider-2__picture {
+   display: block;
+   width: 254px;
+   height: 254px;
+}
