@@ -123,29 +123,3 @@ img {
    border-radius: 25px;
    background-color: rgba(0, 0, 0, 0.4);
 }
-
-.slider-2__window {
-   position: relative;
-
-   width: 548px;
-   height: 322px;
-   margin-inline: auto;
-   overflow: hidden;
-}
-
-.slider-2__picts {
-   position: absolute;
-   top: 0;
-   left: 0;
-
-   display: flex;
-   gap: 40px;
-
-   transition: transform 1000ms;
-}
-
-.slider-2__picture {
-   display: block;
-   width: 254px;
-   height: 254px;
-}
